@@ -8,10 +8,10 @@ func main() {
 
 	for i := 0; i < 10; i++ {
 		sum += i
+		fmt.Println(i)
 	}
 
-	fmt.Printf("%T \n", sum)
-
+	fmt.Printf("\n%T \n", sum)
 	fmt.Println(sum)
 
 }
