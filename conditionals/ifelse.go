@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+
 	a := 4
 
 	if a == 2 {
